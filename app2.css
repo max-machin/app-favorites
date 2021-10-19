@@ -1,0 +1,386 @@
+
+body {
+    background-image: url(image/Headphones-yellow-background_3840x2160.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(19, 9, 17, 0.801);
+}
+:tool{
+    --degrade_jaune :linear-gradient(to top right,
+    #af4101,
+    #ff8010,
+    #ffbc02
+    );
+}
+header {
+    display: flex;
+    text-align: center;
+    
+}
+.logohead {
+    margin-left: 10px;
+    margin-top: -6%;
+}
+.conthead {
+    display: flex;
+    align-items: center;
+    margin-left: 77%;
+    color: white;
+    margin-top: -1%;
+}
+.loginbut {
+    border: 2px solid;
+    line-height: 5vh;
+    font-size: 1rem;
+    text-decoration: bold;
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(to top left,
+    #00c6f2c2,
+    #ffee00bb,
+    #ff0000be);
+    color: black;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.479),
+                inset -2px -2px 3px rgba(0, 0, 0, 0.486);
+}
+.loginbut:hover {
+    background-color: rgb(255, 255, 255);
+}
+.loginbut:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.titre {
+    margin-left: 10px;
+    text-align: start;
+    font-size: 260%;
+    color: white;
+}
+.off {
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+    margin-top: 40%;
+    padding-bottom: 20px;
+}
+.off ul {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+}
+.off ul li {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    color: white;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.off ul h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 220%;
+    color: white;
+    margin-right: 35px;
+}
+.off ul h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 150%;
+    color: white;
+    margin-right: 35px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.butoff1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.butoff1:hover {
+    background-color: white;
+    color: black;
+    transition: 0,4s ease-out;
+}
+.plus a {
+    color: rgb(207, 207, 207);
+    font-size: 90%;
+    font-weight: bold;
+    
+}
+.offre1 {
+    background-image:linear-gradient(to top left,
+        #b02efc,
+        #920cb3,
+        #4a0f6d
+    );
+    background-size: 100%;
+    border-radius: 20px;
+    line-height: 40px;
+}
+.offre2 {
+    background-image: linear-gradient(to top right,
+    #b02efc,
+    #00c7f2,
+    #06ff97c9
+    );
+    border-radius: 20px;
+    line-height: 25px;
+}
+.offre3 {
+    background-image:linear-gradient(to top right,
+    #af4101,
+    #ff8010,
+    #ffbc02
+    );
+    border-radius: 20px;
+    line-height: 25px;
+}
+.pres1 {
+    display: flex;
+    margin-left: -9px;
+    margin-right: -8px;
+    align-items: center;
+    gap: 50px   ;
+    
+}
+.pres1 h3 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 320%;
+    font-style: italic; 
+    margin:auto;
+}
+.contpres {
+    text-align: center;
+    color: black;
+}
+.contpres li {
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 36px;
+    color: rgb(150, 150, 150);
+    font-size: 160%;
+    text-align: center;
+}
+.contpres2 {
+    text-align: center;
+}
+.contpres2 li {
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 36px;
+    color: rgb(207, 207, 207);
+    font-size: 160%;
+}
+.titrepres1 {
+    padding-right: 40px;
+}
+.titrepres2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.conten {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.univers {
+    text-align: center;
+    box-sizing: border-box;
+}
+.univers a {
+    color: white;
+    text-decoration: none;
+}
+
+.titreuni {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 340%;
+    font-style: oblique;
+}
+.univ1  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.univ2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.univers li {
+    list-style: none;
+   margin-left: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.479),
+                inset -3px -4px 3px rgba(0, 0, 0, 0.486);
+}
+.t1 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    rgb(44, 37, 167),
+    #3157fd,
+    #920cb3
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;   
+}
+.t2 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    #920142,
+    #e71a77,
+    #ff6cae
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.t3 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    #b36500,
+    #b21e35,
+    #5c0c1a
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.t4 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    rgb(235, 163, 29),
+    #ffba08,
+    #ff5614f5
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.t5 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    #008d6a,
+    #55a630,
+    #eaee00
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 94px;
+    padding-right: 94px;
+}
+.t6 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    #5e320e,
+    #d1793f,
+    #cc966b
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.t7 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    #494e53,
+    #adb5bd,
+    #443837fa
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.t8 {
+    border-radius: 5px;
+    background-image: linear-gradient(to top right,
+    #76ffb4,
+    #b555ff,
+    #563499
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+.univers li:hover {
+    background-color: rgba(255, 255, 255, 0.822);
+}
+.univers li:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.logostores {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logostores ul {
+    list-style: none;
+    margin-left: -1%;
+}
+
+.tifoot1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    color: black;
+}
+.listefoot1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(133, 133, 133); 
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+.listefoot1 ul {
+    list-style: none;
+}
+.listefoot2 {
+    padding-left: 90px;
+    padding-right: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.listeicon {
+    gap: 20px;
+    color: black;
+}
+.listeicon a {
+    color: black;
+}
+.listefoot2 ul {
+    display: flex ;
+    list-style: none;
+    font-size: 150%;
+}
+.copyrig {
+    font-size: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logodeez {
+    margin-left: 3px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: rgb(133, 133, 133) ;
+}

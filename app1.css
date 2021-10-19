@@ -1,0 +1,240 @@
+body {
+    background-image: url(image/France_1905_40x38-LO_2000x.jpg);
+    background-size: 70%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+}
+.contmain {
+    background-image: url(image/craterlakecut.jpg);
+    background-repeat: no-repeat;
+    object-position: 50%,50%;
+    margin-top: 0%;
+    background-size: 100%;
+    height: 200vh;
+}   
+* {
+    padding: 0;
+    margin: 0;
+}
+.conteneurtitre {
+    text-align: center;
+    margin-top: 9%;
+    margin-left: 15%;
+}
+.soustitre {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 140%;
+    margin-top: -7%;
+    margin-left: 5%;
+}
+.contheader {
+    background-color: rgba(22, 22, 22, 0.822);
+    
+}
+nav {
+    width: 70%;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    padding: 26px;
+
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    
+}
+nav a:hover {
+    color: rgb(136, 204, 0);;
+    border-bottom: 2px solid rgb(136, 204, 0);;
+}
+
+nav > ul li:hover .sousderoul {
+    display: block;
+}
+.sousderoul li {
+    float: none;
+    width: 100%;
+    text-align: center;  
+}
+.sousderoul a {
+    padding: 10px;
+    border-radius: none;
+}
+.sousderoul a:hover {
+    border-bottom: none;
+    background-color: rgba(189, 189, 189, 0);
+}
+.deroulant > a::after {
+    content: "▼";
+    font-size: 12px;
+}
+.sousderoul {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgba(49, 49, 49, 0.63);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+.texteliste {
+    background-color: rgba(252, 250, 250, 0.979);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 230%;
+    padding: 40px;  
+   
+}
+.vertliste {
+    color: rgb(136, 204, 0);
+}
+.listeicone {
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    background-color: rgba(252, 250, 250, 0.979);
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 60px;
+    box-shadow: 20px 7px 10px rgba(47, 79, 79, 0.322);
+}
+.listeicone .lisicone h2 {
+    font-size: 400%;
+}
+.listeicone .lisicone h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 130%;
+    padding-bottom:7px;
+    
+}
+.listeicone .lisicone li {
+    padding-top: 10px;
+    list-style: none;
+    line-height: 7px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+main ul li h3,a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.lisicone li:hover {
+    color: yellowgreen;
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+.blocmain {
+    margin-top: 446px;
+}
+.conteneur2 {
+    display: block;
+    justify-content: center; 
+    background-color: white;
+    margin-top: 40%;
+    padding-bottom: 30px;
+    box-shadow: -17px -5px 10px rgba(47, 79, 79, 0.295);
+}
+.backtel {
+    background-image: url(image/Sur-ma-route-visuel-1.png);
+    height: 500px ;
+    width: 300px ;
+    background-size: 100%;
+    margin-left: 40%;
+    
+}
+.backtel li {
+    list-style: none;
+    margin-left: 58px;
+}
+.inttel {
+    display: block;
+    padding-top: 258px;
+}
+.texte2 {
+    text-align: center;
+    font-size: 230%;
+    padding: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.vertcont {
+    color: rgb(136, 204, 0);
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 240);
+    padding-top: 30px;
+    cursor: pointer;
+}
+footer li {
+    list-style: none;
+}
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 300%;
+}
+.liste1foot, .liste2foot {
+    text-align: center;
+    line-height: 5vh;
+}   
+footer li:hover {
+    color: rgb(136, 204, 0);
+    transition: 1s ease-out;
+}
+.titrefoot1:hover {
+    color: rgb(136, 204, 0);
+    transition: 1s ease-out;
+}
+.titrefoot3 {
+    font-style: normal;
+}
+.titrefoot {
+    text-decoration: none;
+}
+.effet1 {
+    color: #3B5999;
+    text-decoration: none;
+}
+.effet1:hover {
+    color: rgb(136, 204, 0);
+    transition: 1s ease-out;
+}
+.effet2 {
+    color: rgb(146, 79, 146) ;
+}
+.effet2:hover {
+    color: rgb(136, 204, 0);
+    transition: 1s ease-out;
+}
+.effet3 {
+    color: #46C1F6;
+}
+.effet3:hover {
+    color:rgb(136, 204, 0) ;
+    transition: 1s ease-out;
+}
+.retrouvez li {
+    padding-top: 20px;
+}
