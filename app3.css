@@ -1,0 +1,219 @@
+
+body {
+    background-image: url(image/backnet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+.backnet {
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 860px;
+    width: 101%;
+    margin: -9px -8px;
+}
+#login1{
+   background-color: #E50914;
+   color: white;
+   border-radius: 5px;
+   font-size: 1rem;
+   font-weight: 400;
+   border: none;
+   outline: none;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: .5rem;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#login1:hover {
+    background-color: #bb0811;
+    transition: all 0,6s ease-out;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 60%;
+    padding-top: 15px;
+}
+.cont1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+.cont1 h2 {
+    font-size: 4rem;
+}
+.cont1 h3 {
+    margin-top: -2%;
+    font-size: 2rem;
+}
+.cont1 p {
+    font-size: 3vh;
+}
+.butinscr {
+    margin-bottom: 2rem;
+}
+#entemail::placeholder {
+    color: #B1B1B1;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    
+}
+#entemail {
+    width: 400px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+}
+#entemailbut {
+    width: 130px;
+    height: 50px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: white;
+}
+#entemailbut:hover {
+    cursor: pointer;
+    background-color: #bb0811;
+    transition: all 0,6s ease-out;
+}
+
+.elem1 {
+    gap: 200px;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elem1 a {
+    color: #;
+}
+.elem1 li {
+    list-style: none;
+    font-size: 130%;
+}
+
+.elem1 h3 {
+    font-size: 220%;
+}
+.elem2 {
+    gap: 200px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elem2 li {
+    list-style: none;
+    font-size: 130%;
+}
+
+.elem2 h3 {
+    font-size: 220%;
+}
+.elem3 {
+    gap: 180px;
+    margin-top: -70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elem3 li {
+    list-style: none;
+    font-size: 130%;
+}
+.elem3 img {
+    margin-top: 200px;
+
+}
+.elem3 h3 {
+    font-size: 220%;
+}
+.butbas {
+    margin-top: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+.butnet {
+    background-image: linear-gradient( to top right,
+    #7c0006,
+    #E50914,
+    #f12d37);
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+.butnet a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    margin-top: 50px;
+    color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+footer li {
+    list-style: none;
+}
+footer li a {
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+.conteneurfoot1 {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        line-height: 45px;
+}
+.listefot2 {
+    display: flex;
+    
+    gap: 20px;
+    font-size: 180%;
+}
+.fb {
+    color: #3B5999;
+}
+
+.ytb {
+    color: red;
+}
+.conteneurfoot2 {
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.726);
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+footer ul li a:hover{
+    color: #E50914;
+    transition: 1s ease-out;
+}
